@@ -24,4 +24,10 @@ console.log('1' === 1);
 console.log('1' == 1);
 console.log(1 == true);
 
+// Ternary operator
+let points = 120;
+let customerType = points >= 100 ? "gold" : "silver";
+console.log("The Customer is " + customerType + " type");
+
+
 
